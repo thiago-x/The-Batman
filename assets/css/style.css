@@ -154,6 +154,10 @@ picture figcaption a{
     position: relative;
 }
 
+.item{
+    box-shadow: 5px 5px 0 #f6030338;
+}
+
 .item .up{
     position: absolute;
     width: 100%;
@@ -166,16 +170,16 @@ picture figcaption a{
     opacity: 0;
     transition: 1s linear;
 }
+
 .item .up:hover{
     padding-bottom: 3rem;
     opacity: 1;
+    background: #f603034b;
 }
 
-.item .up p{
-
-}
-.item .up:hover{
-    background: none;
+.up h2{
+    border-bottom: 2px solid var(--red);
+    transition: 1s linear;
 }
 
 .footer{
@@ -204,6 +208,33 @@ picture figcaption a{
 
 .footer-icons a i:hover{
     color: var(--red);
+}
+
+@media(max-width:760px){
+    .header{
+        background: url('../img/banner.jpg') right center no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .logo{
+        padding: 1.25rem;
+        float: none;
+        margin-bottom: 5rem;
+        margin-top: 0;
+        width: 400px;
+        /* transform: translateY(-25vh); */
+    }
+    h2.h2{
+        font-size: 1.5rem;
+    }
+    picture{
+        padding: 1rem;
+    }
+    picture img{
+        width: 300px;
+    }
 }
 
 
