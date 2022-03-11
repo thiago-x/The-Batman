@@ -212,7 +212,7 @@ picture figcaption a{
 
 @media(max-width:760px){
     .header{
-        background: url('../img/banner.jpg') right center no-repeat;
+        background: url('../img/banner.jpg') right right no-repeat;
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -236,7 +236,7 @@ picture figcaption a{
         width: 300px;
     }
     .footer{
-        background: url('../img/back.jpg') top right no-repeat;
+        background: url('../img/back.jpg') center center no-repeat;
         background-size: cover;
     }
 }
