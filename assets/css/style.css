@@ -14,7 +14,7 @@
 :root{
     --font-primary:'Ropa Sans', sans-serif;;
     --color-p: #999985;
-    --red: #F60304;
+    --red: #D60B1C;
 }
 
 
@@ -49,6 +49,50 @@
     margin-top: 25vh;
     padding: 1.25rem;
     /* transform: translateY(-25vh); */
+}
+
+.header-icons{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-right: 1.25rem;
+}
+
+.header-icons ul{
+    display: flex;
+}
+
+.header-icons ul li + li{
+    margin-left: 10px;
+}
+
+.header-icons ul i{
+    font-size: 1.25rem;
+    padding: 10px;
+    color: #fff;
+    transition: color .5s linear;
+}
+
+.header-icons ul i:hover{
+    color: var(--red);
+}
+
+.ingresso{
+    display: block;
+    position: absolute;
+    right: 0;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    bottom: 0;
+    margin-right: 11rem;
+    margin-bottom: 7.5rem;
+    padding: .8rem 1rem;
+    border: 2px solid var(--red);
+    transition: background .3s linear;
+}
+
+.ingresso:hover{
+    background: #D60B1C;
 }
 
 .trailer{
@@ -225,6 +269,9 @@ picture figcaption a{
         margin-top: 0;
         width: 400px;
         /* transform: translateY(-25vh); */
+    }
+    .header a{
+        margin-bottom: 10rem;
     }
     h2.h2{
         font-size: 1.5rem;
