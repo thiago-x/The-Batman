@@ -235,6 +235,16 @@ picture figcaption a{
     picture img{
         width: 300px;
     }
+    .footer{
+        background: url('../img/back.jpg') top right no-repeat;
+        background-size: cover;
+    }
+}
+
+@media(max-width:570px){
+    iframe{
+        height: 400px;
+    }
 }
 
 
