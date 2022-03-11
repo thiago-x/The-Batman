@@ -60,6 +60,8 @@
 
 .header-icons ul{
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .header-icons ul li + li{
@@ -77,16 +79,11 @@
     color: var(--red);
 }
 
-.ingresso{
+ul .ingresso {
     display: block;
-    position: absolute;
-    right: 0;
     font-family: var(--font-primary);
     text-transform: uppercase;
-    bottom: 0;
-    margin-right: 11rem;
-    margin-bottom: 7.5rem;
-    padding: .8rem 1rem;
+    padding: .5rem .8rem;
     border: 2px solid var(--red);
     transition: background .3s linear;
 }
@@ -269,9 +266,6 @@ picture figcaption a{
         margin-top: 0;
         width: 400px;
         /* transform: translateY(-25vh); */
-    }
-    .header a{
-        margin-bottom: 10rem;
     }
     h2.h2{
         font-size: 1.5rem;
