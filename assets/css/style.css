@@ -21,6 +21,7 @@
 .container{
     width: 100%;
     height: 100%;
+    overflow: hidden;
     background: #000000;
     filter: contrast(1.2);
     filter: grayscale(.1);
@@ -264,7 +265,7 @@ picture figcaption a{
         float: none;
         margin-bottom: 5rem;
         margin-top: 0;
-        width: 400px;
+        width: 350px;
         /* transform: translateY(-25vh); */
     }
     h2.h2{
