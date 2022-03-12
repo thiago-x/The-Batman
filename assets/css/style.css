@@ -2,6 +2,11 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
+::selection{
+    color: #fff;
+    background: var(--red);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +18,7 @@
 
 :root{
     --font-primary:'Ropa Sans', sans-serif;;
-    --color-p: #999985;
+    --color-p: #888888;
     --red: #D60B1C;
 }
 
@@ -157,6 +162,29 @@ picture figcaption a{
     line-height: 1.75;
     color: var(--color-p);
     margin-bottom: 1.8rem;
+    max-width: 800px;
+    position: relative;
+    text-align: center;
+}
+
+.text-about .text-img img{
+    width: 200px;
+}
+
+@media(max-width:1145px){
+    .text-about .text-img img{
+        width: 100px;
+    }
+}
+
+@media(max-width:800px){
+    .text-about .text-img img{
+        display: none;
+    }
+    .text-about p{
+        text-align: justify;
+        font-size: .9rem;
+    }
 }
 
 .cast{
@@ -246,6 +274,7 @@ picture figcaption a{
     font-size: 1.5rem;
     padding: 10px;
     transition: .5s linear;
+    color: var(--color-p);
 }
 
 .footer-icons a i:hover{
