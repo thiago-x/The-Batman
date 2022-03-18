@@ -48,10 +48,10 @@ html{
     display: block;
     border-radius: 100%;
     border: 2px solid #000000;
-    width: 1px;
+    width: 10px;
     height: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 12px;
+    padding: 6px;
     background: #fff ;
     cursor: pointer;
 }
