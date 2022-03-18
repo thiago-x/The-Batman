@@ -7,6 +7,10 @@
     background: var(--red);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +34,29 @@
     background: #000000;
     filter: contrast(1.2);
     filter: grayscale(.1);
+    position: relative;
+}
+
+.nav {
+    position: fixed;
+    top: 45vh;
+    left: .5rem;
+    z-index: +100;
+}
+
+.nav ul a{
+    display: block;
+    border-radius: 100%;
+    border: 2px solid #000000;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    padding: 5px;
+    background: #fff ;
+    cursor: pointer;
+}
+.nav ul a:hover{
+    background: #D60B1C;
 }
 
 .header{
@@ -99,7 +126,7 @@ ul .ingresso {
 }
 
 .trailer{
-    padding: 2rem;
+    padding: 3rem;
     font-family: var(--font-primary);
     margin-bottom: 5rem;
 }
@@ -123,7 +150,7 @@ ul .ingresso {
 }
 
 .about{
-    padding: 2rem;
+    padding: 3rem;
     font-family: var(--font-primary);
     margin-bottom: 5rem;
 }
@@ -188,7 +215,7 @@ picture figcaption a{
 }
 
 .cast{
-    padding: 2rem;
+    padding: 3rem;
     font-family: var(--font-primary);
     margin: 0 auto;
 }
@@ -260,7 +287,7 @@ picture figcaption a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .footer p{
