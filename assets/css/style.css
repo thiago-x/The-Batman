@@ -196,6 +196,7 @@ picture figcaption a{
 
 .text-about .text-img img{
     width: 200px;
+    margin: 0 auto;
 }
 
 @media(max-width:1145px){
@@ -224,6 +225,7 @@ picture figcaption a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: minmax(500px, 1fr);
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -341,7 +343,7 @@ picture figcaption a{
 
 @media(max-width:570px){
     iframe{
-        height: 350px;
+        height: 300px;
     }
 }
 
